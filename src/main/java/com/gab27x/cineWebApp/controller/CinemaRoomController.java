@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/cinemarooms")
+@CrossOrigin
 public class CinemaRoomController {
 
     private final CinemaRoomService cinemaRoomService;

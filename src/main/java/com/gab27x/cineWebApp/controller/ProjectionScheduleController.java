@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/projectionschedules")
+@CrossOrigin
 public class ProjectionScheduleController {
 
     private final ProjectionScheduleService projectionScheduleService;
